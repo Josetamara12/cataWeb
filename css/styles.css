@@ -1,84 +1,84 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* Fuente principal del documento */
+    background-color: #f4f4f4; /* Color de fondo del documento */
+    margin: 0; /* Elimina el margen predeterminado del navegador */
+    padding: 20px; /* Espaciado interno del cuerpo del documento */
 }
 
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    background-color: #fff; /* Color de fondo del contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    border-radius: 8px; /* Bordes redondeados del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
 }
 
 h2 {
-    text-align: center;
-    color: #333;
+    text-align: center; /* Centra el texto del título */
+    color: #333; /* Color del texto del título */
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Usa flexbox para el diseño del formulario */
+    flex-direction: column; /* Coloca los elementos del formulario en una columna */
 }
 
 label {
-    margin-top: 10px;
-    font-weight: bold;
+    margin-top: 10px; /* Espaciado superior para las etiquetas */
+    font-weight: bold; /* Texto en negrita para las etiquetas */
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 10px; /* Espaciado interno de los campos de entrada */
+    margin-top: 5px; /* Espaciado superior de los campos de entrada */
+    margin-bottom: 20px; /* Espaciado inferior de los campos de entrada */
+    border: 1px solid #ccc; /* Borde de los campos de entrada */
+    border-radius: 5px; /* Bordes redondeados de los campos de entrada */
 }
 
 button {
-    padding: 10px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
+    padding: 10px; /* Espaciado interno del botón */
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde para el botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    text-align: center; /* Centra el texto del botón */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
 }
 
 .catalog {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
+    display: flex; /* Usa flexbox para el diseño del catálogo */
+    flex-wrap: wrap; /* Permite que los elementos del catálogo se envuelvan */
+    gap: 20px; /* Espaciado entre los elementos del catálogo */
+    justify-content: space-between; /* Distribuye los elementos del catálogo equitativamente */
 }
 
 .product {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(33.333% - 20px);
-    box-sizing: border-box;
-    text-align: center;
+    background-color: #fff; /* Color de fondo del producto */
+    padding: 15px; /* Espaciado interno del producto */
+    border-radius: 5px; /* Bordes redondeados del producto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del producto */
+    flex: 1 1 calc(33.333% - 20px); /* Tamaño flexible del producto */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del producto */
+    text-align: center; /* Centra el texto del producto */
 }
 
 .product h3 {
-    margin: 0 0 10px;
-    color: #333;
+    margin: 0 0 10px; /* Espaciado inferior del título del producto */
+    color: #333; /* Color del texto del título del producto */
 }
 
 .product p {
-    color: #666;
+    color: #666; /* Color del texto de la descripción del producto */
 }
 
 .product button {
-    background-color: #28a
+    background-color: #28a; /* Color de fondo del botón del producto */
 }
