@@ -40,3 +40,113 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+/* Reset básico */
+body, h1, h2, h3, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Encabezado */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Hero */
+#hero {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 10px;
+}
+
+#hero p {
+    margin: 0;
+}
+
+/* Lista de cursos */
+#course-list {
+    padding: 20px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article-card {
+    width: 300px; /* Puedes ajustar el tamaño del contenedor */
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center; /* Centra el contenido dentro de la tarjeta */
+    margin: 20px auto; /* Centra la tarjeta horizontalmente */
+}
+
+.art-image {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin: 0 auto 10px; /* Centra la imagen con 'margin: auto' */
+}
+
+.art-info {
+    padding: 15px;
+}
+
+.art-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #333;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background: #555;
+}
+
+/* Footer */
+#footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
