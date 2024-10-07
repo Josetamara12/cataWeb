@@ -1,152 +1,76 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 50%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-h2 {
-    text-align: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input, button {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Reset básico */
-body, h1, h2, h3, p, form, input, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* Encabezado */
-.header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.header h1 {
-    margin: 0;
-}
-
-/* Hero */
-#hero {
-    background: #f4f4f4;
-    padding: 20px 0;
-    text-align: center;
-}
-
-#hero h2 {
-    margin-bottom: 10px;
-}
-
-#hero p {
-    margin: 0;
-}
-
-/* Lista de cursos */
-#course-list {
-    padding: 20px 0;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.article-card {
-    width: 300px; /* Puedes ajustar el tamaño del contenedor */
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center; /* Centra el contenido dentro de la tarjeta */
-    margin: 20px auto; /* Centra la tarjeta horizontalmente */
-}
-
-.art-image {
-    width: 100px; /* Ajusta el tamaño de la imagen */
-    height: auto; /* Mantiene las proporciones de la imagen */
-    display: block; /* Asegura que la imagen sea un bloque */
-    margin: 0 auto 10px; /* Centra la imagen con 'margin: auto' */
-}
-
-.art-info {
-    padding: 15px;
-}
-
-.art-info h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.price {
-    color: #333;
-    font-weight: bold;
-}
-
-.add-to-cart {
-    background-color: #008cba;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 14px;
-    border-radius: 5px;
-}
-
-.add-to-cart:hover {
-    background: #555;
-}
-
-/* Footer */
-#footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
+/* Estilos personalizados  para la card de login*/
+.login-card {
+    max-width: 450px;
     width: 100%;
+    padding: 40px 30px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.full-height {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-card input {
+    height: 45px;
+    font-size: 1.1rem;
+}
+
+.login-card button {
+    height: 45px;
+    font-size: 1.1rem;
+}
+
+.login-card h2 {
+    font-size: 2rem;
+}
+
+/* Estilos personalizados  para la card de registros*/
+.register-card {
+            max-width: 500px;
+            width: 100%;
+            padding: 40px 30px;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .full-height {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .register-card input {
+            height: 45px;
+            font-size: 1.1rem;
+        }
+
+        .register-card button {
+            height: 45px;
+            font-size: 1.1rem;
+        }
+
+        .register-card h2 {
+            font-size: 2rem;
+        }
+  
