@@ -14,7 +14,7 @@ exports.register = async (req, res) => {
       if (err) {
         console.error(err); // Agregar registro del error
         return res.status(500).json({ message: 'Error en el servidor' });
-      }
+        }
       // Aquí puedes redirigir si estás usando sesiones o un frontend
       res.status(201).json({ message: 'Usuario registrado exitosamente' });
     });
